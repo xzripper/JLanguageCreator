@@ -75,7 +75,7 @@ public class Exceptions {
         }
 
         catch(Exception Error) {
-            return new Object[] {Error, Error.getMessage()};
+            return new Object[] {Error.getClass(), Error.getMessage()};
         }
     }
 
