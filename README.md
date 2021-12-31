@@ -105,7 +105,7 @@ import LanguageCreator.StringParser; // Importing string parsing tools.
 
 public class Main {
     public static void main(String[] args) {
-        StringParser Parser = new StringParser("Hello, XMy name is Ivan!Y Do you like me repo's?Z Bye!"); // Create new instance of parser with our string.
+        StringParser Parser = new StringParser("Hello, XMy name is Ivan!Y Do you like my repo's?Z Bye!"); // Create new instance of parser with our string.
         System.out.println(Parser.GetString()); // Get and print string.
         System.out.println(Parser.Replace(new String[] {"X", "Y", "Z"}, new String[] {"", "", ""})); // Replace useless characters and print.
     }
@@ -117,7 +117,7 @@ Hello, XMy name is Ivan!Y Do you like me repo's?Z Bye!
 Hello, My name is Ivan! Do you like me repo's? Bye!
 ```
 
-How we see, we removed [X, Y, Z] in one time in string.
+How we see, we removed X, Y, Z in one time in string.
 That's cool and fast!
 
 # How to install?
@@ -141,3 +141,6 @@ Beacuse...? Beacuse it's free, strong, and easy,<br>with source code, any issue 
 
 # End.
 _Thanks for reading, i hope you will be happy using this library, have a good day, bye bye!_
+
+<hr>
+<p align="center">^_^</p>
