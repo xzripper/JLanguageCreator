@@ -14,13 +14,6 @@ public class StringParser {
     }
 
     /**
-     * Update written string.
-     */
-    public void UpdateString(String Line) {
-        Str = Line;
-    }
-
-    /**
      * Cut string from start.
      * @param From Cut from.
      */
@@ -117,14 +110,6 @@ public class StringParser {
     }
 
     /**
-     * Convert array to string.
-     * @param Array
-     */
-    public static String ArrayToString(String[] Array) {
-        return String.format("<[%s]>", String.join(", ", Array));
-    }
-
-    /**
      * Remove substring from string.
      * @param Character
      */
@@ -160,8 +145,23 @@ public class StringParser {
      * Is substring in string.
      * @param TheString The substring.
      */
-    public boolean InScobes(String TheString) {
+    public boolean InString(String TheString) {
         return Str.contains(TheString);
+    }
+
+    /**
+     * Convert array to string.
+     * @param Array
+     */
+    public static String ArrayToString(String[] Array) {
+        return String.format("<[%s]>", String.join(", ", Array));
+    }
+
+    /**
+     * Update written string.
+     */
+    public void UpdateString(String Line) {
+        Str = Line;
     }
 
     /**
