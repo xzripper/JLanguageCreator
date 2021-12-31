@@ -6,7 +6,7 @@ public class Credits {
     public static final String LibNote = "Ported from Python on Java";
 
     public static final short CreateYear = 2021;
-    public static final float LibVersion = 1.0f;
+    public static final float LibVersion = 1.2f;
 
     public static final boolean Finished = true;
 
