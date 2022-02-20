@@ -113,8 +113,8 @@ public class Main {
 ```
 #### Result.
 ```
-Hello, XMy name is Ivan!Y Do you like me repo's?Z Bye!
-Hello, My name is Ivan! Do you like me repo's? Bye!
+Hello, XMy name is Ivan!Y Do you like my repo's?Z Bye!
+Hello, My name is Ivan! Do you like my repo's? Bye!
 ```
 
 How we see, we removed X, Y, Z in one time in string.
